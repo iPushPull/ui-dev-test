@@ -1,5 +1,3 @@
-
-import { useState } from 'react';
 import { AgGridReact } from 'ag-grid-react';
 import { ColDef } from 'ag-grid-community';
 
@@ -13,7 +11,7 @@ interface IRow {
 // Create new GridExample component
 export const GridExample = () => {
   // Row Data: The data to be displayed.
-  const [rowData] = useState<IRow[]>([
+  const rowData: IRow[] = [
     {
       mission: 'Voyager',
       company: 'NASA',
@@ -29,21 +27,19 @@ export const GridExample = () => {
       company: 'SpaceX',
       location: 'Cape Canaveral',
     },
-  ]);
+  ];
 
   // Column Definitions: Defines & controls grid columns.
-  const [colDefs] = useState<ColDef<IRow>[]>([
+  const colDefs: ColDef<IRow>[] = [
     { field: 'mission' },
     { field: 'company' },
     { field: 'location' },
-  ]);
+  ];
 
   // Container: Defines the grid's theme & dimensions.
   return (
     <div
-      className={
-        "ag-theme-alpine"
-      }
+      className="ag-theme-alpine"
       style={{ width: 610, height: 200 }}
     >
       <AgGridReact rowData={rowData} columnDefs={colDefs} />
