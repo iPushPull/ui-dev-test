@@ -20,8 +20,6 @@ This test aims to evaluate the candidate's skills in React, TypeScript, data han
 - **ID Column**: Should be hidden from view.
 - **Email Column**: Should contain `mailto` links, allowing direct email composition on click.
 - **Address Column**: Style with a blue background and white text.
-- **Website Column**: Display data as clickable links to actual websites.
-- **Company Column**: Group the data. More info at [Ag-Grid Column Groups](https://www.ag-grid.com/react-data-grid/column-groups/).
 
 ### Unit Testing
 - Write basic unit tests to ensure the grid renders correctly.
@@ -29,6 +27,8 @@ This test aims to evaluate the candidate's skills in React, TypeScript, data han
 ### Bonus (Optional)
 - Design the component to be configurable for handling data and columns of various shapes and formats.
 - Extend unit tests to cover more scenarios.
+- **Website Column**: Display data as clickable links to actual websites.
+- **Company Column**: Group the data. More info at [Ag-Grid Column Groups](https://www.ag-grid.com/react-data-grid/column-groups/).
 
 ## Aim of Exercise
 The exercise is designed to assess your abilities in:
