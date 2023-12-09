@@ -1,7 +1,12 @@
 # Front-end Developer Technical Test
 
-## Overview
-This test aims to evaluate the candidate's skills in React, TypeScript, data handling, and integration with third-party libraries. The primary focus is on writing clean, maintainable, and type-safe code, with efficient data processing and rendering capabilities.
+## Aim of Exercise
+The exercise is designed to assess your abilities in:
+- React and TypeScript.
+- Data handling and processing.
+- Integration with third-party libraries, particularly [AgGrid](https://www.ag-grid.com/example/).
+- Emphasis on clean code, maintainability, type safety, and efficient data rendering. 
+- A high level of test coverage is a key area of focus.
 
 ## Requirements
 
@@ -14,7 +19,7 @@ This test aims to evaluate the candidate's skills in React, TypeScript, data han
 
 ### Ag-Grid Integration
 - Create a React component to integrate Ag-Grid for displaying the fetched data.
-- Reference: [Ag-Grid Documentation](https://www.ag-grid.com/)
+- Reference: [AgGrid Documentation](https://www.ag-grid.com/react-data-grid/getting-started/)
 
 ### Column Customisation
 - **ID Column**: Should be hidden from view.
@@ -25,12 +30,7 @@ This test aims to evaluate the candidate's skills in React, TypeScript, data han
 
 ### Bonus (Optional) 
 - **Website Column**: Display data as clickable links to actual websites.
-- **Company Column**: Group the data. More info at [Ag-Grid Column Groups](https://www.ag-grid.com/react-data-grid/column-groups/).
+- **Company Column**: Group the data. More info at [AgGrid Column Groups](https://www.ag-grid.com/react-data-grid/column-groups/).
 - Design the component to be configurable for handling data and columns of various shapes and formats.
 
-## Aim of Exercise
-The exercise is designed to assess your abilities in:
-- React and TypeScript usage.
-- Data handling and processing.
-- Integration with third-party libraries, particularly Ag-Grid.
-- Emphasis on clean code, maintainability, type safety, and efficient data rendering.
+
