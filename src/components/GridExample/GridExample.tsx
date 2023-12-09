@@ -1,5 +1,5 @@
-import { AgGridReact } from 'ag-grid-react';
 import { ColDef } from 'ag-grid-community';
+import { AgGridReact } from 'ag-grid-react';
 
 // Row Data Interface
 interface IRow {
@@ -30,18 +30,11 @@ export const GridExample = () => {
   ];
 
   // Column Definitions: Defines & controls grid columns.
-  const colDefs: ColDef<IRow>[] = [
-    { field: 'mission' },
-    { field: 'company' },
-    { field: 'location' },
-  ];
+  const colDefs: ColDef<IRow>[] = [{ field: 'mission' }, { field: 'company' }, { field: 'location' }];
 
   // Container: Defines the grid's theme & dimensions.
   return (
-    <div
-      className="ag-theme-alpine"
-      style={{ width: 610, height: 200 }}
-    >
+    <div className="ag-theme-alpine" style={{ width: 610, height: 200 }}>
       <AgGridReact rowData={rowData} columnDefs={colDefs} />
     </div>
   );

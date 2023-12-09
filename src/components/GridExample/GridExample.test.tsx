@@ -1,6 +1,5 @@
-
 import { render, screen } from '@testing-library/react';
-import { GridExample } from './GridExample'; 
+import { GridExample } from './GridExample';
 
 describe('GridExample Component', () => {
   it('renders the grid without crashing', () => {
