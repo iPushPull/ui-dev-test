@@ -17,8 +17,8 @@ The exercise is designed to assess your abilities in:
 ### Data Fetching and Processing
 - Implement functionality to fetch user data from the provided endpoint: `https://jsonplaceholder.typicode.com/users`
 
-### Ag-Grid Integration
-- Create a React component to integrate Ag-Grid for displaying the fetched data.
+### AgGrid Integration
+- Create a React component to integrate AgGrid for displaying the fetched data.
 - Reference: [AgGrid Documentation](https://www.ag-grid.com/react-data-grid/getting-started/)
 
 ### Column Customisation
