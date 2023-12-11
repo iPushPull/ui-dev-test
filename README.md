@@ -12,6 +12,8 @@ The exercise is designed to assess your abilities in:
 
 ## 📝 Requirements
 
+**These requirements outline the key tasks and features to be implemented, focusing on data fetching, AgGrid integration, column customisation, and unit testing.**
+
 ### 🛠️ Framework and Language
 
 - **Framework**: React
